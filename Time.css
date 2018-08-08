@@ -1,0 +1,21 @@
+body
+{
+	background-image: url("Time.jpeg");
+
+	font-family: "Arial";
+
+	color: #ffffff;
+
+	text-align: center;
+
+}
+p
+{
+	font-size: 100px;
+}
+.button
+{
+	background-color: #ffffff;
+	cursor: pointer;
+
+}
