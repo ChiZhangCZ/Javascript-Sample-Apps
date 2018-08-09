@@ -1,0 +1,27 @@
+body{
+
+	background-image: url(calculator.jpeg);
+	text-align: center;
+	margin-top: 100px;
+	font-family: "Arial";
+}
+
+form{
+	text-align: center;
+	margin-top: 100px;
+
+}
+
+input[type=button]{
+
+	padding: 20px 20px;
+	margin: 10px;
+	background-color: #555555;
+	color: white;
+
+}
+
+input[type=text]{
+
+	padding: 20px 20px;
+}

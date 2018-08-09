@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="Calculator.js"></script>
+	<link rel="stylesheet" type="text/css" href="Calculator.css">
+</head>
+<body>
+
+	<h2>R & C's Calculator of Awesomeness</h2>
+	<form>
+		<input type="Text" name="calc" disabled="true" id="calc"><br>
+		<input type="button" onclick="addToTextbox('+')" value="+">
+		<input type="button" onclick="addToTextbox('-')" value="-">
+		<input type="button" onclick="addToTextbox('/')" value="÷">
+		<input type="button" onclick="addToTextbox('*')" value="x">
+		<input type="button" onclick="addToTextbox('.')" value="."><br>
+		<input type="button" onclick="addToTextbox('1')" value="1">
+		<input type="button" onclick="addToTextbox('2')" value="2">
+		<input type="button" onclick="addToTextbox('3')" value="3"><br>
+		<input type="button" onclick="addToTextbox('4')" value="4">
+		<input type="button" onclick="addToTextbox('5')" value="5">
+		<input type="button" onclick="addToTextbox('6')" value="6"><br>
+		<input type="button" onclick="addToTextbox('7')" value="7">
+		<input type="button" onclick="addToTextbox('8')" value="8">
+		<input type="button" onclick="addToTextbox('9')" value="9"><br>
+		<input type="button" onclick="addToTextbox('0')" value="0">
+		<input type="button" onclick="document.getElementById('calc').value = calculate(document.getElementById('calc').value)" value="=">
+		<input type="button" onclick="document.getElementById('calc').value = ''" value="C">
+
+	</form>
+
+</body>
+</html>
